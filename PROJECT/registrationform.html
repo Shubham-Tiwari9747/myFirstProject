@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>REGISTERATION FORM </title>
+    <link href="form.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1 align="center">Day_On CLASSES</h1>
+    <div class="register">
+        <h2 align="center">
+            <font color="red">REGISTRATION FORM </font>
+        </h2>
+        <hr />
+        <form align="LEFT" method="post" id="register" action="mailto:tshubham140100@gmail.com">
+            <label>Name:</label><br />
+            <input type="text" name="SNAME" id="name" placeholder="Student Name" title="use only capital letter"
+                required="required" autofocus size="20" maxlength="20" /><br /><br />
+            <label>Father Name:</label><br />
+            <input type="text" name="FNAME" id="name" placeholder="Father name" title="use only capital letter"
+                required="required" size="20" maxlength="20" /><br /><br />
+            <label>Mother Name:</label><br />
+            <input type="text" name="MNAME" placeholder="Mother NAme" id="name" title="use only capital letter"
+                required="required" size="20" maxlength="20" /><br /><br />
+            <label>Class :</label><select id="name">
+                <option value="1">5th</option>
+                <option value="2">6th</option>
+                <option value="3">7th</option>
+                <option value="4">8th</option>
+                <option value="5">9th</option>
+                <option value="6">10th</option>
+                <option value="7">11th</option>
+                <option value="8">12th</option>
+            </select><br /><br />
+            <label>Choose your stream</label><font color="red" size="2">(*for 11th and 12th only)</font>:-<br />
+            <input type="radio" Name="checked" value="science" id="stream"><span id="stream"> Science </span>&nbsp;
+            <br />
+            <input type="radio" Name="checked" value="commerce" id="stream"><span id="stream"> Commerce</span> &nbsp;
+            <br />
+            <input type="radio" Name="checked" value="arts" id="stream"><span id="stream"> Arts</span> &nbsp;
+            <br /><br />
+            <label>Choose your board:-</label></br>
+            <input type="radio" name="board" value="cbse" id="board"><span id="board">C.B.S.E </span>&nbsp; <br />
+            <input type="radio" name="board" value="delhi board" id="board"><span id="board">DELHI BOARD </span> &nbsp;
+            <br />
+            <input type="radio" name="board" value="other" id="board"><span id="board">Other </span> &nbsp; <br /><br />
+            <label>Mobile no. :</label><br />
+            <input type="number" name="mno." placeholder="987065****" id="name" required="required" size="12"
+                maxlength="12" autocomplete /><br /><br />
+            <label>E.Mail:</label><br />
+            <input type="email" name="email" placeholder="@gmail.com" id="name" required="required" /><br /><br />
+            <input type="submit" name="submite" value="submit" id="sub" /> &nbsp;&nbsp;&nbsp;
+            <input type="reset" name="reset" value="reset" id="sub"><br /><br />
+            <hr /><label><b><i>THANK YOU!</i></b></label>
+        </form>
+    </div>
+</body>
+
+</html>

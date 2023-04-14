@@ -1,0 +1,56 @@
+*{
+	margin:0; padding:0;
+}
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbVBneXAwJlCBwpQxxgdS8GYGutROhZGvdwLxgsE-n-BwNVmAC);
+	background-size:100% 700px;
+	background-repeat: repeat;
+}
+h1{
+	text-align: center;
+	padding: 10px;
+	color:rgb(228, 215, 215);
+}
+h2{
+	text-align: center;
+	padding: 10px;
+}
+.register{
+	background-color: cadetblue;
+	width: 500px;
+	margin: 0px 0px 0px 250;
+	color: black;
+	font-size:16;
+	padding:5px;
+	border-radius:10px;
+}
+#register{
+	margin-left:25px;
+}
+label{
+	color: black;
+	font-family: sana serif;
+	font-size: 16px;
+	font-style: italic;
+}
+#name{
+	widht: 200px;
+	border: 5px;
+	border-radius:3px;
+	outline:3px;
+	padding:5;
+}
+#sub {
+    width: 200px;
+    border: 5px;
+    border-radius: 3px;
+    outline: 3px;
+    padding: 5;
+    font-size: 16px;
+    font-family: sanss-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
